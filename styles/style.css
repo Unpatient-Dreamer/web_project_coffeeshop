@@ -10,12 +10,12 @@
 
 .header {
   display: flex;
-  flex-direction: ;
+  flex-direction: column;
   height: 100vh;
-  min-height: ;
-  max-height: ;
+  min-height: 720px;
+  max-height: 800px;
   padding: ;
-  position: center;
+  position: relative;
   background-image: url(../images/background_header.svg);
   background-size: cover;
   background-repeat: no-repeat;
