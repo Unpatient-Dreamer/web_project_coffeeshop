@@ -5,4 +5,22 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0 auto;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  flex-direction: ;
+  height: 100vh;
+  min-height: ;
+  max-height: ;
+  padding: ;
+  position: center;
+  background-image: url(../images/background_header.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header__image {
 }
