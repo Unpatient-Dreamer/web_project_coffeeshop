@@ -14,7 +14,6 @@
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-  padding: ;
   position: relative;
   background-image: url(../images/background_header.svg);
   background-size: cover;
@@ -132,4 +131,30 @@
 .header__paragraph {
   margin: auto 80px 40px 0;
   padding: 0;
+}
+
+.recipes {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  background-image: url(../images/background_recipes.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #0a2750;
+  color: #fff;
+}
+
+.recipes__title {
+  max-width: 580px;
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-bottom: auto;
+}
+
+.recipes__subtitle {
+  max-width: 438px;
+  margin: 24px auto 0 80px;
 }
