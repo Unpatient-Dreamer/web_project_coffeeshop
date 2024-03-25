@@ -114,6 +114,11 @@
   display: flex;
 }
 
+.header__footer_column {
+  display: flex;
+  flex-direction: column;
+}
+
 .header__footer-heading {
   margin: 0;
 }
@@ -198,4 +203,19 @@
 
 .recipes__video-caption-time {
   margin: 0;
+}
+
+.reservation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  background-image: url(../images/background_reservation.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #d9e7ff;
 }
