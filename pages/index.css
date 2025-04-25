@@ -165,13 +165,13 @@
   height: 273px;
 }
 
-.video__caption {
+.recipes__caption {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
   margin-top: 24px;
 }
 
-.video__caption-text {
+.recipes__caption_text {
   margin: 0;
 }
