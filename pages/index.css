@@ -91,9 +91,6 @@
   justify-content: space-between;
 }
 
-.header__schedule {
-}
-
 .header__paragraph {
   margin: 0;
   font-weight: 500;
@@ -169,4 +166,106 @@
 
 .recipes__caption-text {
   margin: 0;
+}
+
+.reservation {
+  background-image: url("/images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #d9e7ff;
+  padding: 100px 0 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation__title {
+  margin-bottom: 80px;
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  max-width: 385px;
+  margin: 0 auto;
+}
+
+.form__fieldset {
+  padding: 0;
+
+  border-style: none;
+}
+
+.form__label {
+  margin: 0 0 8px;
+  font-size: 16px;
+  display: block;
+}
+
+.form__label-text {
+  margin: 0 0 0 12px;
+}
+
+.form__label-text-right {
+  text-align: center;
+}
+
+.form__input {
+  border: 1px solid #838383;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  padding: 15px 20px;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: inherit;
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+}
+
+.form__button {
+  margin: 0 0 32px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #2f80ed;
+  width: 100%;
+  max-width: 385px;
+  height: 60px;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: inherit;
+  border: none;
+}
+
+.form__button:hover {
+  opacity: 70%;
+}
+
+.form__checkbox[type="checkbox"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.form__pseudo-item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #838383;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.form__checkbox:checked + .form__pseudo-item_type_checkbox {
+  background-image: url("/images/check.svg");
+  background-position: center;
+  background-size: inherit;
+  background-repeat: no-repeat;
+  background-color: #2f80ed;
 }
