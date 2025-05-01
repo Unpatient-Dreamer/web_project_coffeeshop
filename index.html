@@ -127,21 +127,21 @@
         <section class="reservation" id="reservation">
           <div class="reservation__title">Reservar una mesa</div>
           <form class="reservation__form form">
-            <fieldset class="reservation__fieldset">
-              <label class="reservation__label" for="name">Nombre *</label>
+            <fieldset class="reservation__fieldset form">
+              <label class="reservation__label form" for="name">Nombre *</label>
               <input
-                class="reservation__input"
+                class="reservation__input form"
                 type="text"
                 id="name"
                 name="name"
                 placeholder="Nombre"
                 required
               />
-              <label class="reservation__label" for="number"
+              <label class="reservation__label form" for="number"
                 >Número de comensales *</label
               >
               <input
-                class="reservation__input"
+                class="reservation__input form"
                 type="number"
                 id="number"
                 name="number"
@@ -150,36 +150,42 @@
                 max="8"
                 required
               />
-              <label class="reservation__label" for="date"
+              <label class="reservation__label form" for="date"
                 >Fecha y hora *</label
               >
               <input
-                class="reservation__input"
+                class="reservation__input form"
                 type="datetime-local"
                 id="date"
                 name="date"
                 required
               />
-              <label class="reservation__label" for="email"
+              <label class="reservation__label form" for="email"
                 >Tu correo electrónico *</label
               >
               <input
-                class="reservation__input"
+                class="reservation__input form"
                 type="email"
                 id="email"
                 name="email"
                 placeholder="email@email.com"
                 required
               />
-              <button class="reservation__button" type="submit">
+              <button class="reservation__button form" type="submit">
                 Reserva una mesa
               </button>
-              <label class="reservation__label reservation__label_text-center">
-                <input class="reservation__checkbox" type="checkbox" required />
+              <label
+                class="reservation__label reservation__label_text-center form"
+              >
+                <input
+                  class="reservation__checkbox form"
+                  type="checkbox"
+                  required
+                />
                 <span
-                  class="reservation__pseudo-item reservation__pseudo-item_type_checkbox"
+                  class="reservation__pseudo-item reservation__pseudo-item_type_checkbox form"
                 ></span>
-                <span class="reservation__label-text"
+                <span class="reservation__label-text form"
                   >Acepto los términos de uso</span
                 >
               </label>
@@ -187,7 +193,43 @@
           </form>
         </section>
       </main>
-      <footer class="footer" id="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="./images/logo_coffeeshop_light.svg"
+              alt="Logotipo de la Cafetería Triple Espresso"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Redes Sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Logotipo de Facebook"
+                    class="footer__social-icon"
+                  />Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Logotipo de Instagram"
+                    class="footer__social-icon"
+                  />Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <p class="footer__copyright">© 2025 Arturo De la Cruz</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
