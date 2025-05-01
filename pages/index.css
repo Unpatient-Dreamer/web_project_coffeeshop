@@ -181,19 +181,16 @@
 }
 
 .reservation__title {
-  margin-bottom: 80px;
+  margin: 0 0 80px 0;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
 }
 
-.reservation__form {
+.reservation__form_fieldset {
   max-width: 385px;
   margin: 0 auto;
-}
-
-.reservation__form_fieldset {
   padding: 0;
   border-style: none;
 }
