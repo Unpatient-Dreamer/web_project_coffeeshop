@@ -195,21 +195,21 @@
   border-style: none;
 }
 
-.reservation__form_label {
+.reservation__label {
   margin: 0 0 8px;
   font-size: 16px;
   display: block;
 }
 
-.reservation__form_label {
+.reservation__label-text {
   margin: 0 0 0 12px;
 }
 
-.reservation__form_label_text-right {
+.reservation__label_text-center {
   text-align: center;
 }
 
-.reservation__form_input {
+.reservation__input {
   border: 1px solid #838383;
   border-radius: 4px;
   margin-bottom: 32px;
@@ -222,7 +222,7 @@
   box-sizing: border-box;
 }
 
-.reservation__form_button {
+.reservation__button {
   margin: 0 0 32px;
   border-radius: 4px;
   color: #fff;
@@ -236,11 +236,11 @@
   border: none;
 }
 
-.reservation__form_button:hover {
+.reservation__button:hover {
   opacity: 70%;
 }
 
-.reservation__form_checkbox[type="checkbox"] {
+.reservation__checkbox[type="checkbox"] {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -248,7 +248,7 @@
   clip: rect(0 0 0 0);
 }
 
-.reservation__form_pseudo-item {
+.reservation__pseudo-item {
   display: inline-block;
   vertical-align: middle;
   width: 20px;
@@ -258,8 +258,7 @@
   background-color: #fff;
 }
 
-.reservation__form_checkbox:checked
-  + .reservation__form_pseudo-item_type_checkbox {
+.reservation__checkbox:checked + .reservation__pseudo-item_type_checkbox {
   background-image: url("/images/check.svg");
   background-position: center;
   background-size: inherit;
