@@ -125,22 +125,22 @@
         </section>
         <section class="reservation" id="reservation">
           <div class="reservation__title">Reservar una mesa</div>
-          <form class="form__form form">
-            <fieldset class="form__fieldset form">
-              <label class="form__label form" for="name">Nombre *</label>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Nombre *</label>
               <input
-                class="form__input form"
+                class="form__input"
                 type="text"
                 id="name"
                 name="name"
                 placeholder="Nombre"
                 required
               />
-              <label class="form__label form" for="number"
+              <label class="form__label" for="number"
                 >Número de comensales *</label
               >
               <input
-                class="form__input form"
+                class="form__input"
                 type="number"
                 id="number"
                 name="number"
@@ -149,36 +149,34 @@
                 max="8"
                 required
               />
-              <label class="form__label form" for="date">Fecha y hora *</label>
+              <label class="form__label" for="date">Fecha y hora *</label>
               <input
-                class="form__input form"
+                class="form__input"
                 type="datetime-local"
                 id="date"
                 name="date"
                 required
               />
-              <label class="form__label form" for="email"
+              <label class="form__label" for="email"
                 >Tu correo electrónico *</label
               >
               <input
-                class="form__input form"
+                class="form__input"
                 type="email"
                 id="email"
                 name="email"
                 placeholder="email@email.com"
                 required
               />
-              <button class="form__button form" type="submit">
+              <button class="form__button" type="submit">
                 Reserva una mesa
               </button>
-              <label class="form__label_text form__label_text-center form">
+              <label class="form__label-text form__label-text_center">
                 <input class="form__checkbox form" type="checkbox" required />
                 <span
-                  class="form__pseudo-item form__pseudo-item_type_checkbox form"
+                  class="form__pseudo-item form__pseudo-item_type_checkbox"
                 ></span>
-                <span class="form__label_text form"
-                  >Acepto los términos de uso</span
-                >
+                <span class="form__label-text">Acepto los términos de uso</span>
               </label>
             </fieldset>
           </form>

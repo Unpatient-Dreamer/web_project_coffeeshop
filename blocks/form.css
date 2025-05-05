@@ -1,4 +1,4 @@
-.form__form {
+.form {
   margin: 0 auto;
 }
 
@@ -15,11 +15,11 @@
   display: block;
 }
 
-.form__label_text {
+.form__label-text {
   margin: 0 0 0 12px;
 }
 
-.form__label_text-center {
+.form__label-text_center {
   display: flex;
   justify-content: center;
 }
